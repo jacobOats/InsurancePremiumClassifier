@@ -1,0 +1,20 @@
+USE car_insurance;
+
+INSERT INTO organization(name,address) VALUES ('OrgOne','78910, Something St. Somewhere MI');
+INSERT INTO organization(name,address) VALUES ('OrgTwo','10987 Anywhere St. Everywhere OH');
+INSERT INTO employee(first_name,last_name,manager_id,organization_id,email,password) VALUES('John','Doe', null, 1,'johndoe@gmail.com', '$2a$10$ql6aZdUg5t6fzD79j.aZOeVOabrc0V8MCb.0iDgqmLw3ICIP0CKPC');
+INSERT INTO employee(first_name,last_name,manager_id,organization_id,email,password) VALUES('Jane','Doe', 1, 1, 'janedoe@gmail.com', '$2a$10$ql6aZdUg5t6fzD79j.aZOeVOabrc0V8MCb.0iDgqmLw3ICIP0CKPC');
+INSERT INTO employee(first_name,last_name,manager_id,organization_id,email,password) VALUES('Jeff','Smith', null, 2, 'jeffsmith@gmail.com', '$2a$10$ql6aZdUg5t6fzD79j.aZOeVOabrc0V8MCb.0iDgqmLw3ICIP0CKPC');
+INSERT INTO employee(first_name,last_name,manager_id,organization_id,email,password) VALUES('Joe','Smithy', 3, 2, 'joesmithy@gmail.com', '$2a$10$ql6aZdUg5t6fzD79j.aZOeVOabrc0V8MCb.0iDgqmLw3ICIP0CKPC');
+INSERT INTO client(first_name,last_name,address,employee_id,email,password) VALUES( 'John','Wick', '1687 City Dr. NY NY', 1,'johnwick@gmail.com', '$2a$10$ql6aZdUg5t6fzD79j.aZOeVOabrc0V8MCb.0iDgqmLw3ICIP0CKPC');
+INSERT INTO client(first_name,last_name,address,employee_id,email,password) VALUES( 'Spike','Spiegel', '4400 BeeBop Rd. Cowboy Rd.', 2, 'spikespiegel@gmail.com', '$2a$10$ql6aZdUg5t6fzD79j.aZOeVOabrc0V8MCb.0iDgqmLw3ICIP0CKPC');
+INSERT INTO client(first_name,last_name,address,employee_id,email,password) VALUES( 'Tony','Montana', '4528 Scarface St. Miami FL', 3,'tonymontana@gmail.com', '$2a$10$ql6aZdUg5t6fzD79j.aZOeVOabrc0V8MCb.0iDgqmLw3ICIP0CKPC');
+INSERT INTO vehicle(vin,client_id,make,model,year,miles,plate) VALUES('1234', 1, 'Chevy','Tahoe',2016,80000,'AB1CD23');
+INSERT INTO vehicle(vin,client_id,make,model,year,miles,plate) VALUES('4321', 1, 'Ford','Bronco',2006,250000,'H1Z1BA2');
+INSERT INTO vehicle(vin,client_id,make,model,year,miles,plate) VALUES('5678', 1, 'Mercedes','Benz',2024,500,'MAL123F');
+INSERT INTO claim(claim_date,client_id,vehicle_id) VALUES('2000-01-09',2,2);
+INSERT INTO claim(claim_date,client_id,vehicle_id) VALUES('2003-05-15',3,3);
+INSERT INTO claim(claim_date,client_id,vehicle_id) VALUES('2007-03-27',1,1);
+INSERT INTO payment(client_id,amount,due_date,vehicle_id) VALUES(1,1500,'2023-04-09',1);
+INSERT INTO payment(client_id,amount,due_date,vehicle_id) VALUES(1,250000,'2023-04-09',2);
+INSERT INTO payment(client_id,amount,due_date,vehicle_id) VALUES(1,3500,'2023-04-09',3);

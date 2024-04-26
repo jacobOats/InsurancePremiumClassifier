@@ -1,0 +1,62 @@
+.BlurbTitle{
+    color: white;
+    text-align: left;
+}
+.InfoBlurb p{
+    color: white;
+    text-align: left;
+    width: 50%;
+  
+}
+.container{
+    display: flex;
+    
+}
+.InfoBlurb{
+    display:flex;
+    float: left;
+    flex-direction: column;
+    width: 40%;
+   
+    margin: 50px;
+    
+}
+.PictureContainer{
+  
+float: left;
+ margin: 50px;
+ width: 40%;
+ 
+ height: 300px;
+}
+.BackgroundSquare{
+    background-color: #07216d;
+    border-radius: 15px;
+    width: 175px;
+    height: 150px;
+    z-index: -1;
+
+}
+p{
+    width: 90%;
+}
+.picture img{
+    border-radius: 10%;
+    width: 65%;
+    position: relative;
+    left: 10%;
+    margin-top: -120px;
+    border: 1px solid aqua;
+    
+}
+.BackgroundSquareOutline{
+    position: relative;
+    left:75%;
+   z-index: -1;
+    background-color: transparent;
+    border: 2px solid #37639e;
+    border-radius: 7px;
+    width: 175px;
+    height: 150px;
+    margin: -130px;
+}

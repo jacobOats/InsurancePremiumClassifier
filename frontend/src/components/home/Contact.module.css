@@ -1,0 +1,28 @@
+.pinkEllipse{
+    height: 350px;
+    top: -150px;  
+    position: fixed;
+    width: 600px;
+    background-color: #B999D3;
+    border-radius: 100% ;
+    align-self: flex-start;
+    margin-left:100px;
+    z-index: -1;
+    filter: blur(100px);
+  } 
+  .blueCircle{
+    height: 400px;
+    right: -220px;  
+    position: fixed;
+    width: 400px;
+    border-radius: 100% ;
+    background-color:#99D2D3;
+    justify-content: center;
+    margin-top: 100px;
+    z-index: -1;
+    filter: blur(110px);
+  }
+h1{
+    text-align: center;
+    color: white;
+}

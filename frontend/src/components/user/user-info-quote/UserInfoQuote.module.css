@@ -1,0 +1,60 @@
+
+.pinkElipse{
+  height: 350px;
+  top: -150px;  
+  position: fixed;
+  width: 600px;
+  background-color: #B999D3;
+  border-radius: 100% ;
+  align-self: flex-start;
+  margin-left:100px;
+  z-index: -1;
+  filter: blur(100px);
+} 
+
+.blueCircle{
+  height: 400px;
+  right: -220px;  
+  position: fixed;
+  width: 400px;
+  border-radius: 100% ;
+  background-color:#99D2D3;
+  justify-content: center;
+  margin-top: 100px;
+  z-index: -1;
+  filter: blur(110px);
+}
+
+.head{
+  font-family: Inter, sans-serif;
+  color:white;
+  text-align:center;
+  font-size:20px;
+  margin:60px;
+  font-weight: bold;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+} 
+
+.infoholder{
+  border-radius: 3px;
+  border-color: rgba(112, 112, 112, 1); 
+  font-family: Inter, sans-serif;
+  background-color: #fff;
+  margin-bottom: 30px;
+  width: 600px;
+  height:20px;
+  padding: 10px 0px 10px 40px;
+} 
+
+  .buttonRow{
+    display:flex;
+    margin:10px 0px 0 0px; 
+    justify-content: center;
+    gap:120px;
+  }    

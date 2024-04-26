@@ -1,0 +1,42 @@
+#Combination of gitignores for Eclipse and Java.
+#Eclipse ignore from https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+#Added .project and .classpath for COSC381.  May have to remove for
+#more complex projects.  mpe, 2/15/2022
+.project
+.classpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# Build
+**/target/**
+
+# React
+**/node_modules/**
+
+# DS_STORE
+**/.DS_Store
+

@@ -1,0 +1,86 @@
+.pinkElipse{
+  height: 350px;
+  top: -150px;  
+  position: fixed;
+  width: 600px;
+  background-color: #B999D3;
+  border-radius: 100% ;
+  align-self: flex-start;
+  margin-left:100px;
+  z-index: -1;
+  filter: blur(100px);
+  } 
+  
+.blueCircle{
+  height: 400px;
+  right: -220px;  
+  position: fixed;
+  width: 400px;
+  border-radius: 100% ;
+  background-color:#99D2D3;
+  justify-content: center;
+  margin-top: 100px;
+  z-index: -1;
+  filter: blur(110px);
+  } 
+
+
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registrationForm label {
+  color: white;
+}
+
+.registrationForm {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.registrationForm p {
+    color: rgb(255, 81, 81);
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.inputField{
+  font-family: Inter, sans-serif;
+  border-radius: 7px;
+  border-color: rgba(172, 172, 172, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #fff;
+  margin-bottom:30px;
+  width: 500px;
+  color: #333333;
+  font-weight: 500;
+  padding: 20px 0px 20px 40px;
+} 
+
+.registrationForm div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.next {
+  border-style: solid;
+  border-width: 1px;
+  align-self:end;
+  width: 150px;
+  height:40px;
+  max-width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: white;
+  font-family: Inter, sans-serif;
+  }
+
+

@@ -1,0 +1,58 @@
+.commonButton {
+    border-radius: 60px;
+    background-blend-mode: color_dodge;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    height: 140px;
+    width: 200px;
+    font-size: 25px;
+    color:white;
+    font-weight: 400;
+    mix-blend-mode: lighten;
+    text-align: center;
+    line-height: 5.5;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-style: italic;
+  }
+  
+.homeLinkButton{
+    border-radius: 60px;
+    background-blend-mode: luminosity;
+    background-color: rgba(135, 125, 222, 0.8);
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    height: 80px;
+    width: 180px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    line-height: 4;
+    text-decoration: none;
+    display:inline-block;
+    font-family: Inter, sans-serif;
+    font-style: italic;
+    font-weight: 550;
+}
+
+.multipurposeButton{
+  border-radius: 60px;
+  background-blend-mode: luminosity;
+  background-color: rgba(49, 90, 241, 0.888);
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  height: 80px;
+  width: 180px;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  line-height: 3;
+  text-decoration: none;
+  display:inline-block;
+  font-family: Inter, sans-serif;
+  font-style: italic;
+  font-weight: 550;
+}

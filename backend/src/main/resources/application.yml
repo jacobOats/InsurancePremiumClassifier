@@ -1,0 +1,39 @@
+
+spring:
+  profiles:
+    active: dev
+    
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+      
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+      
+  flyway:
+    enabled: true 
+    
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST}/${MYSQL_DATABASE}
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+      
+      
+---
+
+spring:
+  config:
+    activate:
+      on-profile: test
+      
+  flyway:
+    enabled: true
+    
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST_TEST}/car_insurance
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}

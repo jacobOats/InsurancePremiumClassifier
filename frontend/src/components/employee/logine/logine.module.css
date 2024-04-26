@@ -1,0 +1,95 @@
+.pinkElipse{
+    height: 350px;
+    top: -150px;  
+    position: fixed;
+    width: 600px;
+    background-color: #B999D3;
+    border-radius: 100% ;
+    align-self: flex-start;
+    margin-left:100px;
+    z-index: -1;
+    filter: blur(100px);
+    } 
+    
+  .blueCircle{
+    height: 400px;
+    right: -220px;  
+    position: fixed;
+    width: 400px;
+    border-radius: 100% ;
+    background-color:#99D2D3;
+    justify-content: center;
+    margin-top: 100px;
+    z-index: -1;
+    filter: blur(110px);
+    } 
+  
+  .loginForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+  
+  .loginForm div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  
+  .loginForm label {
+    color: white;
+  }
+  
+  .inputField {
+    font-family: Inter, sans-serif;
+    border-radius: 7px;
+    border-color: rgba(172, 172, 172, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-bottom:30px;
+    width: 500px;
+    color: #333333;
+    font-weight: 500;
+    padding: 20px 0px 20px 40px;
+    }
+  
+  .loginButton {
+    font-family: Inter, sans-serif;
+    border-radius: 7px;
+    border-color: rgba(172, 172, 172, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-bottom:30px;
+    width: 540px;
+    color: black;
+    font-weight: 500;
+    padding: 10px 50px 10px 50px;
+    text-align:center;
+    background-color: #9ec0d3;
+    margin-top:20px;
+    }
+    
+  .text {
+    color: #0b64b7;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+   }
+  
+  .registerButton {
+    border-radius: 7px;
+    border-color: rgba(172, 172, 172, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-top: 30px;
+    width: 280px;
+    color: #000;
+    padding: 10px ;
+    font: 400 16px Inter, sans-serif;
+    }
+  
